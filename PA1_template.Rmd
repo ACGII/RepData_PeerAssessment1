@@ -60,7 +60,7 @@ hist(B,main="Histogram of Steps",xlab="Number of Steps")
 ```
 
 ### 3. Mean and median number of steps taken each day
-I decided to you use the graph of the total steps as a funtion of day (time).  The mean for this graph can be envisioned as the green horizontal line the divides the area under the graph.  The top part of thegraph (above the green line) is backfill required to fill in the gaps below the green line.  This will give rise to a rectangular shaped graph whose y value is the mean.
+I decided to you use the graph of the total steps as a funtion of day (time).  The mean for this graph can be envisioned as the green horizontal line the divides the area under the graph.  The top part of the graph (above the green line) is backfill required to fill in the gaps below the green line.  When completed, this will give rise to a rectangular shaped graph whose y value is the mean.
 ```{r df, echo=TRUE}
 
 Mean<-mean(B)
